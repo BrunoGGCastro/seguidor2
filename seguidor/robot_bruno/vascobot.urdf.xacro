@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="robo" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    
+    <xacro:include filename="vascomovel.xacro"/>
+    <xacro:include filename="gazebo_control.xacro"/>
+    <!-- <xacro:include filename="camera2.xacro"/> -->
+    <!-- <xacro:include filename="depth_camera.xacro"/> -->
+
+    <xacro:include filename="kinetic.xacro"/>
+</robot>

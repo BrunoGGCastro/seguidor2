@@ -7,16 +7,6 @@ from std_msgs.msg import String
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge, CvBridgeError
 
-
-
-
-def basic_thresholding(gray_image, threshol_value):
-    ret, thresh_basic = cv2.threshold(gray_image,threshol_value,255,cv2.THRESH_BINARY_INV)
-    cv2.imshow("Basic Binary Image",thresh_basic)
-
-
-
-
 class image_converter:
 
   def __init__(self):
@@ -34,10 +24,10 @@ class image_converter:
     (rows,cols,channels) = cv_image.shape
     if cols > 60 and rows > 60 :
       cv2.circle(cv_image, (50,50), 10, 255)
+    ret, thresh_basic = cv2.threshold(cv_image,178,255,cv2.THRESH_BINARY_INV)
 
-    #cv2.imshow("Image window", cv_image)
-    
-    image = cv2.threshold(cv_image,115,255,cv2.THRESH_BINARY_INV)
+
+    cv2.imshow("Basic Binary Image",thresh_basic)
     cv2.imshow("Image window",cv_image)
     cv2.waitKey(3)
 
@@ -58,6 +48,9 @@ def main(args):
 
 if __name__ == '__main__':
     main(sys.argv)
+
+
+
 
 
 

@@ -21,9 +21,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/White</name>
+            <name>Gazebo/Black</name>
           </script>
-          <ambient>1 1 1 1</ambient>
+          <ambient>0 0 0 0</ambient>
         </material>
         <meta>
           <layer>1</layer>
@@ -50,9 +50,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/White</name>
+            <name>Gazebo/Black</name>
           </script>
-          <ambient>1 1 1 1</ambient>
+          <ambient>0 0 0 0</ambient>
         </material>
         <meta>
           <layer>0</layer>
@@ -79,9 +79,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/White</name>
+            <name>Gazebo/Black</name>
           </script>
-          <ambient>1 1 1 1</ambient>
+          <ambient>0 0 0 0</ambient>
         </material>
         <meta>
           <layer>0</layer>
@@ -108,9 +108,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/White</name>
+            <name>Gazebo/Black</name>
           </script>
-          <ambient>1 1 1 1</ambient>
+          <ambient>0 0 0 0</ambient>
         </material>
         <meta>
           <layer>0</layer>
@@ -137,9 +137,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/White</name>
+            <name>Gazebo/Black</name>
           </script>
-          <ambient>1 1 1 1</ambient>
+          <ambient>0 0 0 0</ambient>
         </material>
         <meta>
           <layer>0</layer>
@@ -166,9 +166,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/White</name>
+            <name>Gazebo/Black</name>
           </script>
-          <ambient>1 1 1 1</ambient>
+          <ambient>0 0 0 0</ambient>
         </material>
         <meta>
           <layer>1</layer>
@@ -195,9 +195,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/White</name>
+            <name>Gazebo/Black</name>
           </script>
-          <ambient>1 1 1 1</ambient>
+          <ambient>0 0 0 0</ambient>
         </material>
         <meta>
           <layer>1</layer>
@@ -224,9 +224,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/White</name>
+            <name>Gazebo/Black</name>
           </script>
-          <ambient>1 1 1 1</ambient>
+          <ambient>0 0 0 0</ambient>
         </material>
         <meta>
           <layer>1</layer>
@@ -253,9 +253,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/White</name>
+            <name>Gazebo/Black</name>
           </script>
-          <ambient>1 1 1 1</ambient>
+          <ambient>0 0 0 0</ambient>
         </material>
         <meta>
           <layer>1</layer>
@@ -282,7 +282,7 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Black</name>
+            <name>Gazebo/Yellow</name>
           </script>
           <ambient>1 1 1 1</ambient>
         </material>
@@ -311,7 +311,7 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Black</name>
+            <name>Gazebo/Yellow</name>
           </script>
           <ambient>1 1 1 1</ambient>
         </material>
@@ -340,7 +340,7 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Black</name>
+            <name>Gazebo/Yellow</name>
           </script>
           <ambient>1 1 1 1</ambient>
         </material>
@@ -369,7 +369,7 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Black</name>
+            <name>Gazebo/Yellow</name>
           </script>
           <ambient>1 1 1 1</ambient>
         </material>
@@ -398,7 +398,7 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Black</name>
+            <name>Gazebo/Yellow</name>
           </script>
           <ambient>1 1 1 1</ambient>
         </material>

@@ -719,10 +719,30 @@
       <static>1</static>
     </model>
     <state world_name='default'>
-      <sim_time>577 361000000</sim_time>
-      <real_time>582 454706663</real_time>
-      <wall_time>1684274205 441273364</wall_time>
-      <iterations>577361</iterations>
+      <sim_time>929 696000000</sim_time>
+      <real_time>96 707617302</real_time>
+      <wall_time>1684883442 104896512</wall_time>
+      <iterations>95805</iterations>
+      <model name='aruco'>
+        <pose frame=''>0.039388 -0.119255 0.38555 0 1.54825 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>0.039388 -0.119255 0.38555 0 1.54825 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='aruco2'>
+        <pose frame=''>0.910885 -0.139689 0.39892 3.14159 1.56861 3.14159</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>0.910885 -0.139689 0.39892 3.14159 1.56861 3.14159</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='ground_plane'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -734,88 +754,88 @@
         </link>
       </model>
       <model name='pista?'>
-        <pose frame=''>1.60881 0.308581 0.281328 0 -0 0</pose>
+        <pose frame=''>1.60902 0.315581 0.281328 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='Floor_4'>
-          <pose frame=''>1.60881 0.308581 0.282328 0 -0 0</pose>
+          <pose frame=''>1.60902 0.315581 0.282328 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_0'>
-          <pose frame=''>-0.296186 0.308581 0.281328 0 0 -1.5708</pose>
+          <pose frame=''>-0.295972 0.315581 0.281328 0 0 -1.5708</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_1'>
-          <pose frame=''>1.62881 -0.866419 0.281328 0 -0 0</pose>
+          <pose frame=''>1.62902 -0.859419 0.281328 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_2'>
-          <pose frame=''>3.55381 0.308581 0.281328 0 -0 1.5708</pose>
+          <pose frame=''>3.55402 0.315581 0.281328 0 -0 1.5708</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_3'>
-          <pose frame=''>1.62881 1.48358 0.281328 0 -0 3.14159</pose>
+          <pose frame=''>1.62902 1.49058 0.281328 0 -0 3.14159</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_37'>
-          <pose frame=''>-0.296186 0.308581 0.282328 0 0 -1.5708</pose>
+          <pose frame=''>-0.295972 0.315581 0.282328 0 0 -1.5708</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_38'>
-          <pose frame=''>1.62881 -0.866419 0.282328 0 -0 0</pose>
+          <pose frame=''>1.62902 -0.859419 0.282328 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_39'>
-          <pose frame=''>3.55381 0.308581 0.282328 0 -0 1.5708</pose>
+          <pose frame=''>3.55402 0.315581 0.282328 0 -0 1.5708</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_40'>
-          <pose frame=''>1.62881 1.48358 0.282328 0 -0 3.14159</pose>
+          <pose frame=''>1.62902 1.49058 0.282328 0 -0 3.14159</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_41'>
-          <pose frame=''>0.838814 1.02958 0.282328 0 -0 0</pose>
+          <pose frame=''>0.839028 1.03658 0.282328 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_42'>
-          <pose frame=''>2.49131 0.552081 0.282328 0 0 -0.785398</pose>
+          <pose frame=''>2.49152 0.559081 0.282328 0 0 -0.785398</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_43'>
-          <pose frame=''>2.97531 -0.231919 0.282328 0 0 -1.54959</pose>
+          <pose frame=''>2.97552 -0.224919 0.282328 0 0 -1.54959</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_44'>
-          <pose frame=''>1.96731 -0.266419 0.282328 0 -0 2.87964</pose>
+          <pose frame=''>1.96752 -0.259419 0.282328 0 -0 2.87964</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_45'>
-          <pose frame=''>0.521314 0.012081 0.282328 0 -0 3.12653</pose>
+          <pose frame=''>0.521528 0.019081 0.282328 0 -0 3.12653</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -827,10 +847,44 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>11.4429 0.736701 3.82157 0 0.259098 -3.11696</pose>
+        <pose frame=''>-2.14341 -0.528956 4.51649 -0 1.0711 -0.488969</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
+    <model name='aruco'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://aruco/meshes/aruco.dae</uri>
+              <scale>0.24 0.24 0.24</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>1.40883 -1.993 0 0 -0 0</pose>
+    </model>
+    <model name='aruco2'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://aruco2/meshes/aruco2.dae</uri>
+              <scale>0.24 0.24 0.24</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>0.931964 -1.37557 0 0 -0 0</pose>
+    </model>
   </world>
 </sdf>

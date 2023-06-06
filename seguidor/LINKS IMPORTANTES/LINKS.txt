@@ -1,0 +1,5 @@
+http://wiki.ros.org/turtlesim/Tutorials/Moving%20in%20a%20Straight%20Line
+
+http://wiki.ros.org/turtlesim/Tutorials/Go%20to%20Goal
+
+https://www.youtube.com/watch?v=eJ4QPrYqMlw

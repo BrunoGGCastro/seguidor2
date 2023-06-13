@@ -51,7 +51,7 @@
   </link>
 
   <gazebo reference="corpo_link">
-    <material>Gazebo/Black</material>
+    <material>Gazebo/Grey</material>
   </gazebo>
 
   <!-- roda esquerda -->

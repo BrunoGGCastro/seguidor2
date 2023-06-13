@@ -7,9 +7,33 @@ from std_msgs.msg import String
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge, CvBridgeError
 from geometry_msgs.msg import Twist
+ 
+def move(a,b,c):
+  
+    velocity_publisher = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
+    vel_msg = Twist() 
+    print('%d %d %d', a,b,c)
+    if a > 130 and c > 130:
+     print('frente')
+     vel_msg.linear.x = 0.2
+     velocity_publisher.publish(vel_msg)
+    if a < 130 :
+     print('esquerda!')
+     vel_msg.linear.x = 0
+     vel_msg.angular.z = 0.3
+     velocity_publisher.publish(vel_msg)
+
+    if c < 130 :
+     print('direita!')
+     vel_msg.linear.x = 0
+     vel_msg.angular.z = -0.3
+     velocity_publisher.publish(vel_msg)
 
 
 class image_converter:
+
+
+
 
   def __init__(self):
     self.image_pub = rospy.Publisher("agent/camera/color/image_raw",Image,queue_size=10)
@@ -30,11 +54,13 @@ class image_converter:
     img = cv2.imread("cv_image")
     cv2.imshow("Basic Binary Image",thresh_basic)
     cv2.imshow("Image window",cv_image)
-    print (thresh_basic[120, 0:212, 0])
-    print (thresh_basic[120, 213:425, 0])
-    print (thresh_basic[120, 426:640, 0])
-    print ('(%d,%d,%d)'%thresh_basic.shape)
 
+
+    a=np.mean(thresh_basic[120, 0:212, 0])
+    #b=np.mean(thresh_basic[120, 213:425, 0])
+    c=np.mean(thresh_basic[120, 426:640, 0])
+    print ('(%d,%d,%d)'%thresh_basic.shape)
+    move(a,b,c)
     cv2.waitKey(3)
 
     try:

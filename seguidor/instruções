@@ -1,0 +1,7 @@
+Depois de baixar o pacote e executar o comando source devel/setup.bash
+
+execute o comando dentro do diretorio src "roslaunch seguidor robot.world" para abrir o mundo e o robo
+
+dentro do diretorio seguidor execute o comando "python seguir.py"
+
+*em caso de erro, checar o caminho da imagem dentro do arquivo seguir.py 

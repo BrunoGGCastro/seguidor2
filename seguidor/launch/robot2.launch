@@ -6,7 +6,7 @@
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
-  <arg name="world" default="$(find seguidor)/worlds/pista2.world"/>
+  <arg name="world" default="$(find seguidor)/worlds/mundo.world"/>
 
   <arg name="robot" default="$(find seguidor)/robot_bruno/vascobot.urdf.xacro"/>
   <arg name="z" default="0.5"/>
